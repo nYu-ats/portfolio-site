@@ -8,7 +8,7 @@ class Top extends Component{
             <div id="Top">
                 <div className="container">
                     <h1>Nyu Atsushi</h1>
-                    <h2>Engineering Porofile Site</h2>
+                    <h2>Engineering Portfolio Site</h2>
                 </div>
             </div>
         )
