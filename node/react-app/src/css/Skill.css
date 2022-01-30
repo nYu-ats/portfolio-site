@@ -1,0 +1,134 @@
+#Skill{
+    background-color: rgba(255, 255, 255, 1);
+    transform: skewY(-7.5deg);
+    transform-origin: bottom left;
+}
+
+#Skill .container{
+    padding-top: 5rem;
+    transform: skewY(7.5deg);
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Skill .container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: .5em;
+}
+
+#Skill .container p{
+    margin: .5em 0;
+    text-align: center;
+}
+
+#Skill .container .flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    min-width: 240px;
+    margin: 0 auto;
+}
+
+#Skill .container .flex .chart_box{
+    margin: 0;
+    width: 50%;
+    min-width: 240px;
+
+}
+
+#Skill .container .flex .chart_box h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#Skill .container .flex .chart_box .charts{
+    list-style: none;
+    padding: 0;
+}
+
+#Skill .container .flex .chart_box .charts .chart .skill{
+    font-size: 0.8rem;
+    margin: 0 1rem;
+}
+
+#Skill .container .flex .chart_box .charts .chart .data{
+    height: 1.2rem;
+    background-color: tomato;
+}
+
+#Skill .container .flex .chart_box .charts .chart .data p{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0;
+}
+
+/* frontend style */
+#Skill .container .flex .chart_box.right{
+    border-right: 2.5px solid black;
+    margin-left: -2.5px;
+}
+
+#Skill .container .flex .chart_box.right .charts .chart .skill{
+    text-align: right;
+}
+
+#Skill .container .flex .chart_box.right .charts .chart .data{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+#Skill .container .flex .chart_box.right .charts .chart .data p{
+    text-align: right;
+    padding-right: .5rem;
+}
+
+@media screen and (max-width:530px) {
+    #Skill .container .flex .chart_box.right{
+        border-left: 2.5px solid black;
+        margin-right: -2.5px;
+        margin-bottom: 3rem;
+        /* 既存styleクリア */
+        border-right: none;
+        margin-left: 0;
+    }
+    
+    #Skill .container .flex .chart_box.right .charts .chart .skill{
+        text-align: left;
+    }
+    
+    #Skill .container .flex .chart_box.right .charts .chart .data{
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+    
+    #Skill .container .flex .chart_box.right .charts .chart .data p{
+        text-align: left;
+        padding-left: .5rem;
+    }    
+}
+
+/* backend style */
+#Skill .container .flex .chart_box.left{
+    border-left: 2.5px solid black;
+    margin-right: -2.5px;
+}
+
+#Skill .container .flex .chart_box.left .charts .chart .skill{
+    text-align: left;
+}
+
+#Skill .container .flex .chart_box.left .charts .chart .data{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+#Skill .container .flex .chart_box.left .charts .chart .data p{
+    text-align: left;
+    padding-left: .5rem;
+}

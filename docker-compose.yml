@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  node:
+    build: ./node
+    container_name: node
+    environment:
+          - USER_NAME=app
+    volumes:
+      - ./node:/usr/src/app:cached
+    command: sh -c "cd react-app && yarn start"
+    tty: true
+    stdin_open: true
+    ports: 
+      - 3000:3000

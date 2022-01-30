@@ -1,0 +1,27 @@
+#Top .container{
+    padding-left: 5rem;
+    margin-top: 50vh;
+    transform: translate(0, -50%);
+}
+
+@media screen and (max-width:360px) {
+    #Top .container{
+        padding-left: 1rem;
+    }
+
+}
+
+#Top .container h1,
+#Top .container h2{
+    color: white;
+}
+
+#Top .container h1{
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+#Top .container h2{
+    font-size: 2rem;
+}
