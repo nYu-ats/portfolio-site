@@ -1,2 +1,5 @@
 .env
 .devcontainer
+node/react-app/.firebase
+node/react-app/.firebaserc
+node/react-app/firebase.json
